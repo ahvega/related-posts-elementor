@@ -1,0 +1,19 @@
+.related-posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.related-post-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.related-post-title {
+    margin: 0;
+}
+
+.related-posts-fallback {
+    color: #888;
+    font-style: italic;
+}
