@@ -32,6 +32,19 @@ class Elementor_Related_Posts_Widget extends \Elementor\Widget_Base {
         );
 
         $this->add_control(
+            'post_type',
+            [
+                'label' => __('Post Type', 'related-posts-elementor'),
+                'type' => \Elementor\Controls_Manager::SELECT,
+                'options' => [
+                    'post' => __('Posts', 'related-posts-elementor'),
+                    'stm_service' => __('Services', 'related-posts-elementor'),
+                ],
+                'default' => 'post',
+            ]
+        );
+
+        $this->add_control(
             'posts_per_page',
             [
                 'label' => __('Number of Posts', 'related-posts-elementor'),
@@ -109,11 +122,21 @@ class Elementor_Related_Posts_Widget extends \Elementor\Widget_Base {
     protected function render() {
         $settings = $this->get_settings_for_display();
         $current_post_id = get_the_ID();
-        $categories = wp_get_post_categories($current_post_id);
+        $post_type = $settings['post_type'];
+        $taxonomy = ($post_type === 'stm_service') ? 'stm_service_category' : 'category';
+        $terms = wp_get_post_terms($current_post_id, $taxonomy, ['fields' => 'ids']);
 
-        if (!empty($categories)) {
+        // Only show related posts if current post matches selected type
+        if (get_post_type($current_post_id) === $post_type && !empty($terms)) {
             $args = [
-                'category__in' => $categories,
+                'post_type' => $post_type,
+                'tax_query' => [
+                    [
+                        'taxonomy' => $taxonomy,
+                        'field' => 'term_id',
+                        'terms' => $terms,
+                    ]
+                ],
                 'post__not_in' => [$current_post_id],
                 'posts_per_page' => $settings['posts_per_page'],
                 'orderby' => $settings['order_by'],
