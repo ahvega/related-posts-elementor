@@ -1,0 +1,25 @@
+related-posts-elementor/
+├── .wordpress-org/
+│   ├── icon-256x256.png
+│   ├── banner-772x250.png
+│   ├── screenshot-1.png
+│   └── screenshot-2.png
+├── assets/
+│   ├── css/
+│   │   ├── related-posts-carousel.css
+│   │   └── related-posts-carousel.min.css
+│   └── js/
+│       ├── related-posts-carousel.js
+│       └── related-posts-carousel.min.js
+├── elementor/
+│   └── widgets/
+│       └── related-posts-carousel.php
+├── languages/
+│   ├── related-posts-elementor.pot
+│   ├── related-posts-elementor-es_ES.po
+│   └── related-posts-elementor-es_ES.mo
+├── .gitignore
+├── LICENSE
+├── readme.txt
+├── README.md
+└── related-posts-elementor.php

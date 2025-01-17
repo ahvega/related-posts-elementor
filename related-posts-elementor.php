@@ -1,12 +1,31 @@
 <?php
-/*
-Plugin Name: Related Posts Elementor
-Description: A custom Elementor widget to display related posts based on the current post's categories.
-Version: 1.0
-Author: Adalberto H. Vega
-Text Domain: related-posts-elementor
-Domain Path: /languages
-*/
+/**
+ * Plugin Name: Related Posts Elementor Widget
+ * Plugin URI: https://yourwebsite.com/related-posts-elementor
+ * Description: A powerful Elementor widget that displays related posts in a beautiful, responsive carousel layout. Features include smart container-based responsive design, customizable navigation, overlay controls, and advanced post query options.
+ * Version: 1.1.0
+ * Requires at least: 5.0
+ * Requires PHP: 7.4
+ * Author: Adalberto H. Vega
+ * Author URI: https://yourwebsite.com
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: related-posts-elementor
+ * Domain Path: /languages
+ *
+ * Related Posts Elementor Widget is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * Related Posts Elementor Widget is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Related Posts Elementor Widget. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
+ */
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
