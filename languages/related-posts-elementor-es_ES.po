@@ -9,23 +9,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-04T06:40:34+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2025-01-08T20:59:05-06:00\n"
+"PO-Revision-Date: 2025-01-08T20:59:05-06:00\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: related-posts-elementor\n"
 
 #. Plugin Name of the plugin
-#: related-posts-elementor.php
 msgid "Related Posts Elementor"
 msgstr "Entradas Relacionadas Elementor"
 
 #. Description of the plugin
-#: related-posts-elementor.php
 msgid "A custom Elementor widget to display related posts based on the current post's categories."
 msgstr "Un widget personalizado de Elementor para mostrar entradas relacionadas basadas en las categorías de la entrada actual."
 
 #. Author of the plugin
-#: related-posts-elementor.php
 msgid "Adalberto H. Vega"
 msgstr "Adalberto H. Vega"
 
@@ -76,3 +73,105 @@ msgstr "Color del Título"
 #: elementor/class-related-posts-widget.php:92
 msgid "Font Size"
 msgstr "Tamaño de Fuente"
+
+#: elementor/widgets/related-posts-carousel.php:13
+msgid "Related Posts Carousel"
+msgstr "Carrusel de Entradas Relacionadas"
+
+#: elementor/widgets/related-posts-carousel.php:38
+msgid "Query Settings"
+msgstr "Ajustes de Consulta"
+
+#: elementor/widgets/related-posts-carousel.php:46
+msgid "Number of Posts"
+msgstr "Número de Entradas"
+
+#: elementor/widgets/related-posts-carousel.php:58
+msgid "Related By"
+msgstr "Relacionado Por"
+
+#: elementor/widgets/related-posts-carousel.php:62
+msgid "Category"
+msgstr "Categoría"
+
+#: elementor/widgets/related-posts-carousel.php:63
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: elementor/widgets/related-posts-carousel.php:74
+msgid "Carousel Settings"
+msgstr "Ajustes del Carrusel"
+
+#: elementor/widgets/related-posts-carousel.php:82
+msgid "Slides Per View"
+msgstr "Diapositivas por Vista"
+
+#: elementor/widgets/related-posts-carousel.php:98
+msgid "Show Arrows"
+msgstr "Mostrar Flechas"
+
+#: elementor/widgets/related-posts-carousel.php:107
+msgid "Show Dots"
+msgstr "Mostrar Puntos"
+
+#: elementor/widgets/related-posts-carousel.php:119
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: elementor/widgets/related-posts-carousel.php:126
+msgid "Background Overlay"
+msgstr "Superposición de Fondo"
+
+#: elementor/widgets/related-posts-carousel.php:141
+msgid "Border Radius"
+msgstr "Radio del Borde"
+
+#: elementor/widgets/related-posts-carousel.php:165
+msgid "Typography"
+msgstr "Tipografía"
+
+#: elementor/widgets/related-posts-carousel.php:173
+msgid "Title Typography"
+msgstr "Tipografía del Título"
+
+#: elementor/widgets/related-posts-carousel.php:182
+msgid "Excerpt Typography"
+msgstr "Tipografía del Extracto"
+
+#: elementor/widgets/related-posts-carousel.php:194
+msgid "Colors"
+msgstr "Colores"
+
+#: elementor/widgets/related-posts-carousel.php:202
+msgid "Title Color"
+msgstr "Color del Título"
+
+#: elementor/widgets/related-posts-carousel.php:214
+msgid "Excerpt Color"
+msgstr "Color del Extracto"
+
+#: elementor/widgets/related-posts-carousel.php:227
+msgid "Button"
+msgstr "Botón"
+
+#: elementor/widgets/related-posts-carousel.php:243
+msgid "Normal"
+msgstr "Normal"
+
+#: elementor/widgets/related-posts-carousel.php:250
+#: elementor/widgets/related-posts-carousel.php:284
+msgid "Text Color"
+msgstr "Color del Texto"
+
+#: elementor/widgets/related-posts-carousel.php:262
+#: elementor/widgets/related-posts-carousel.php:296
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: elementor/widgets/related-posts-carousel.php:277
+msgid "Hover"
+msgstr "Hover"
+
+#: elementor/widgets/related-posts-carousel.php:392
+msgid "Read More"
+msgstr "Leer Más"
